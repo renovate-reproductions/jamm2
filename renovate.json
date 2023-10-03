@@ -1,3 +1,7 @@
 {
-  "versionCompatibility": "^jammy-(?<version>.*)$"
+  "packageRules": [{
+    "matchPackageNames": ["ubuntu"],
+    "versioning": "docker",
+    "versionCompatibility": "^jammy-(?<version>.*)$"
+  }]
 }
